@@ -23,7 +23,6 @@ public class ClientGUI extends javax.swing.JFrame {
     public ClientGUI() {
         initComponents();
         this.messagesPanel.setVisible(false);
-        this.setTitle("Chat");
     }
 
     /**
@@ -76,6 +75,7 @@ public class ClientGUI extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Chat");
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 formWindowClosing(evt);

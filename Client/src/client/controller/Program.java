@@ -5,7 +5,6 @@
  */
 package client.controller;
 
-import client.model.*;
 import client.view.*;
 
 /**
